@@ -1,0 +1,143 @@
+.cart-page {
+  padding: 2rem;
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.cart-item {
+  display: flex;
+  align-items: flex-start;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.cart-item img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cart-details {
+  flex: 1;
+  padding: 1rem;
+}
+
+.cart-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.cart-controls button {
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+}
+
+.delete-btn {
+  background-color: rgb(165, 9, 40);
+  color: white;
+  border: none;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  width: fit-content;
+  min-width: 80px;
+  text-align: center;
+}
+
+.cart-summary {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid #ccc;
+}
+
+.cart-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.cart-buttons button {
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cart-buttons button:hover {
+  background-color: #388e3c;
+}
+
+.butt {
+  background-color: #388e3c;
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  padding: 0 1rem;
+}
+
+.butt:hover {
+  cursor: pointer;
+  background-color: #2e7d32;
+}
+
+/* ======= POPUP ======= */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.close-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: #2e7d32;
+}
